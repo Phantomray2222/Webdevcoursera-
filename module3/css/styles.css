@@ -1,0 +1,46 @@
+body {
+    background-color: blanchedalmond;
+}
+
+
+#header-nav {position: relative;
+    background-color: darkkhaki;
+    text-align: left;
+    height: 60px;
+}
+#header-nav h1{position: absolute;
+    left: 0;
+
+}
+h2 {
+    text-align: center;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid red; 
+}
+h3 {
+    text-align: center;
+}
+#isk {
+    background-color: white;
+    opacity: 0.5;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+#nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
