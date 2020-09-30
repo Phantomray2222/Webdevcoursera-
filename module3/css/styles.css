@@ -43,4 +43,21 @@ h3 {
   #nav-list a span {
     font-size: 1.8em;
   }
+  @media (max-width: 767px) {
+    #collapsable-nav a { /* Collapsed nav menu text */
+      font-size: 1.2em;
+    }
+    #collapsable-nav a span { /* Collapsed nav menu glyph */
+      font-size: 1em;
+      margin-right: 5px;
+    }
+  }
   
+  /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+  @media (max-width: 479px) {
+      /* Header */
+      .navbar-brand h1 { /* Restaurant name */
+        padding-top: 5px;
+        font-size: 6vw;
+      }
+  }
